@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1298px" height="230px" viewBox="0 0 1298 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>komunikat (desktop)</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1288" height="220"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1288" height="220" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="4" y="49" width="1279" height="167"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1279" height="167" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="8" y="51" width="1271" height="162"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1271" height="162" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <linearGradient x1="8.23529455%" y1="50.0421064%" x2="91.2156851%" y2="50.042106%" id="linearGradient-7">
+            <stop stop-color="#830E90" offset="0%"></stop>
+            <stop stop-color="#CA1EDD" offset="18.2351142%"></stop>
+            <stop stop-color="#FC4EB6" offset="38.3864641%"></stop>
+            <stop stop-color="#FE9AB0" offset="58.8144779%"></stop>
+            <stop stop-color="#FAC886" offset="74.5283306%"></stop>
+            <stop stop-color="#25E85D" offset="95.3125%"></stop>
+        </linearGradient>
+        <rect id="path-8" x="1253" y="187" width="26" height="26"></rect>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="26" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
+        <rect id="path-10" x="1253" y="76" width="26" height="113"></rect>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="113" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <rect id="path-12" x="1253" y="51" width="26" height="26"></rect>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="26" fill="white">
+            <use xlink:href="#path-12"></use>
+        </mask>
+        <rect id="path-14" x="1253" y="13" width="26" height="26"></rect>
+        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="26" fill="white">
+            <use xlink:href="#path-14"></use>
+        </mask>
+        <rect id="path-16" x="1222" y="13" width="26" height="26"></rect>
+        <mask id="mask-17" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="26" fill="white">
+            <use xlink:href="#path-16"></use>
+        </mask>
+        <rect id="path-18" x="1191" y="13" width="26" height="26"></rect>
+        <mask id="mask-19" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="26" fill="white">
+            <use xlink:href="#path-18"></use>
+        </mask>
+        <rect id="path-20" x="0" y="0" width="20" height="18"></rect>
+        <mask id="mask-21" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="18" fill="white">
+            <use xlink:href="#path-20"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1920px" transform="translate(-317.000000, -1067.000000)">
+            <g id="Baner-+-dolny-cień" transform="translate(0.000000, 140.000000)">
+                <g id="cień-na-przejściu" transform="translate(0.000000, 895.985352)">
+                    <g id="okienko" transform="translate(317.000000, 31.014648)">
+                        <path d="M10,10 L1298,10 L1298,230 L10,230 Z" id="Rectangle-4455" fill="#FFFFFF"></path>
+                        <use id="Rectangle-4452" stroke="#000000" mask="url(#mask-2)" stroke-width="2" fill="#C1CBDB" stroke-dasharray="0,0" xlink:href="#path-1"></use>
+                        <use id="Rectangle-4456" stroke="#000000" mask="url(#mask-4)" stroke-width="2" stroke-dasharray="0,0" xlink:href="#path-3"></use>
+                        <use id="Rectangle-4454" stroke="#191425" mask="url(#mask-6)" stroke-width="4" fill="#191425" stroke-dasharray="0,0" xlink:href="#path-5"></use>
+                        <path d="M8,6 L1283,6 L1283,43 L8,43 Z" id="Rectangle-4453" fill="url(#linearGradient-7)"></path>
+                        <use id="Rectangle-4457" stroke="#000000" mask="url(#mask-9)" stroke-width="2" fill="#BECCDB" stroke-dasharray="0,0" xlink:href="#path-8"></use>
+                        <use id="Rectangle-4458" stroke="#000000" mask="url(#mask-11)" stroke-width="2" fill="#C0CBDC" stroke-dasharray="0,0" xlink:href="#path-10"></use>
+                        <use id="Rectangle-4459" stroke="#000000" mask="url(#mask-13)" stroke-width="2" fill="#BECCDB" stroke-dasharray="0,0" xlink:href="#path-12"></use>
+                        <use id="Rectangle-4460" stroke="#000000" mask="url(#mask-15)" stroke-width="2" fill="#BECCDB" stroke-dasharray="0,0" xlink:href="#path-14"></use>
+                        <use id="Rectangle-4461" stroke="#000000" mask="url(#mask-17)" stroke-width="2" fill="#BECCDB" stroke-dasharray="0,0" xlink:href="#path-16"></use>
+                        <use id="Rectangle-4462" stroke="#000000" mask="url(#mask-19)" stroke-width="2" fill="#BECCDB" stroke-dasharray="0,0" xlink:href="#path-18"></use>
+                        <path d="M1266,60 L1272.9282,66.75 L1259.0718,66.75 L1266,60 Z" id="Polygon-143" fill="#191425"></path>
+                        <path d="M1266,196 L1272.9282,202.75 L1259.0718,202.75 L1266,196 Z" id="Polygon-144" fill="#191425" transform="translate(1266.000000, 200.500000) scale(1, -1) translate(-1266.000000, -200.500000) "></path>
+                        <g id="Group-393" transform="translate(1258.000000, 18.000000)" stroke="#000000" stroke-dasharray="0,0" stroke-linecap="round" stroke-width="1.5">
+                            <line x1="0" y1="16" x2="17.3333321" y2="0" id="Vector-300"></line>
+                            <line x1="0" y1="0" x2="16.6666679" y2="16" id="Vector-301"></line>
+                        </g>
+                        <g id="Group-395" transform="translate(1225.000000, 17.000000)">
+                            <use id="Rectangle-4463" stroke="#000000" mask="url(#mask-21)" stroke-width="3" stroke-dasharray="0,0" xlink:href="#path-20"></use>
+                            <path d="M1.25,1.20019531 L18.7499981,1.20019531 L18.7499981,3.60019541 L1.25,3.60019541 Z" id="Rectangle-4464" fill="#000000"></path>
+                        </g>
+                        <line x1="1194.5" y1="34" x2="1212.5" y2="34" id="Vector-302" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="0,0"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
