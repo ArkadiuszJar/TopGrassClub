@@ -112,7 +112,7 @@ a {
 
 .breeding__two--image {
   width: 32%;
-  padding: 5%;
+  padding: 6%;
   margin-top: 0;
   margin-right: -80px;
   margin-bottom: 80px;
@@ -127,6 +127,7 @@ a {
 
 .roadmap__neon {
   display: block;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -144,24 +145,25 @@ a {
 .roadmap__desc--text {
   max-width: 200px;
   text-align: center;
-  margin-bottom: 2.5em;
+  margin-bottom: 3em;
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.7rem;
+  font-size: 0.55rem;
   font-weight: 300;
   position: relative;
   z-index: 2;
 }
 
 .roadmap__maze--image {
-  max-width: 40%;
+  max-width: 30%;
   position: relative;
   z-index: 3;
 }
 
 .roadmap__mazes--bg {
   position: absolute;
+  width: 300px;
   right: 5em;
-  top: 7em;
+  top: 3em;
 }
 .roadmap__strike--image {
   position: absolute;
@@ -172,23 +174,102 @@ a {
 }
 
 #token {
-  height: 150vh;
   background-image: url(/images/section4-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.token__wrapper {
+  display: flex;
+  padding-top: 5%;
+  justify-content: center;
+}
+
+.token__image {
+  width: 460px;
+}
+
+.token__desc--wrapper {
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.token__desc {
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  flex-direction: column;
+}
+
+.token__title {
+  font-size: 1.2rem;
+  -webkit-text-stroke: #25e85d 1px;
+  text-shadow: 0px 5px 10px #25e85d;
+  margin-bottom: 0;
+}
+
+.token__subtitle {
+  max-width: 350px;
+  font-size: 0.5rem;
+}
+
+.token__title--image {
+  margin-top: 10px;
+  max-width: 200px;
+}
+
+.token__button {
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+  width: 250px;
+  padding-bottom: 5%;
+}
+
 #merch {
-  height: 100vh;
   background-image: url(/images/section5-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.merch__wrapper {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.merch__content {
+  margin-top: -15%;
+}
+
+.merch__title {
+  font-size: 2rem;
+  -webkit-text-stroke: #d41472 1px;
+  text-shadow: 0px 5px 10px #d41472;
+  margin-bottom: 0;
+}
+
+.merch__desc {
+  font-family: "JetBrains Mono", monospace;
+  max-width: 400px;
+  font-size: 0.5rem;
+  margin-top: 2em;
+  margin-right: -50%;
+}
+
+.merch__image {
+  display: block;
+  padding: 5%;
+  margin: auto;
+  width: 900px;
 }
 
 #ticket {
-  height: 100vh;
   background-image: url(/images/ticket-future-bg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -202,9 +283,10 @@ a {
 
 .ticket__image {
   margin-left: 35%;
-  margin-bottom: -7%;
+  margin-bottom: -9%;
   max-width: 1300px;
   min-width: 500px;
+  padding-top: 20%;
 }
 
 .ticket__baner {
