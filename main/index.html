@@ -24,25 +24,26 @@
     <header id="header">
       <nav class="navbar">
         <div class="navbar__container">
-          <img class="navbar__logo" src="/images/logo.svg" alt="logo" />
+          <a href="index.html"><img class="navbar__logo" src="/images/logo.svg" alt="logo" /></a>
           <ul class="navbar__list">
-            <a href="#"><li class="navbar__list--element">LOBBY</li></a>
-            <a href="#"><li class="navbar__list--element">BREEDING</li></a>
-            <a href="#"><li class="navbar__list--element">MERCH</li></a>
-            <a href="#"><li class="navbar__list--element">CLUB</li></a>
-            <a href="#"><li class="navbar__list--element">FAQ</li></a>
+            <a href="#header"><li class="navbar__list--element">LOBBY</li></a>
+            <a href="#breeding"><li class="navbar__list--element">BREEDING</li></a>
+            <a href="#merch"><li class="navbar__list--element">MERCH</li></a>
+            <a href="#token"><li class="navbar__list--element">CLUB</li></a>
+            <a href="#faq"><li class="navbar__list--element">FAQ</li></a>
           </ul>
           <img class="navbar__button" src="/images/btn-navbar.svg" />
         </div>
       </nav>
-    </header>
-    <main>
-      <section id="breeding">
-        <img
-          class="breeding__image"
+      <img
+          class="mainpage__image"
           src="/images/aletr-window.svg"
           alt="aletr-window"
         />
+    </header>
+    <main>
+      <section id="breeding">
+        
         <div class="breeding__container">
           <div class="breeding__container--half">
             <img
@@ -290,10 +291,9 @@
       </div>
       </section>
       <section id="contact">
-        
-        <img src="/images/form-images.png" alt="rocket and astronaut" class="contact__image"/>
         <div class="form__container">
-          <img src="/images/contact-form-bg.png" alt="form background" class="contact__form">
+          <img src="/images/contact-form-bg.png" alt="contact form" class="contact__form">
+          <a href="#header"><img src="/images/back-to-top-btn.png" alt="back to top button" class="contact__btt--btn"/></a>
         </div>
       </section>
     </main>
@@ -325,8 +325,8 @@
       <div class="footer__newsletter">
         <p class="footer__newsletter--text">NEWSLETTER</p>
         <input type="text" id="input__text" />
-        <button>sign up</button>
       </div>
+      <p class="copyright__mobile">Copyright © 2021 cannumi</p>
     </footer>
   </body>
 </html>

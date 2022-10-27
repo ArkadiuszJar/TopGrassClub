@@ -12,6 +12,7 @@ body {
   background-color: #08012f;
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -29,6 +30,10 @@ a {
 
 .navbar {
   background-color: #08012f;
+}
+
+.navbar__logo {
+  margin: auto 1em;
 }
 
 .navbar__container {
@@ -54,25 +59,29 @@ a {
   margin-bottom: -3em;
 }
 
+.mainpage__image {
+  max-width: 70%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 1em;
+}
+
 #breeding {
   background-image: url(/images/section2-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.breeding__image {
-  width: 1200px;
-  display: block;
-  margin: auto;
+  flex-wrap: wrap;
 }
 
 .breeding__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   max-width: 1300px;
   margin: auto;
-  padding-top: 3em;
+  padding-top: 1em;
   padding-bottom: 3em;
 }
 
@@ -84,7 +93,7 @@ a {
 }
 
 .breeding__container--image {
-  width: 70%;
+  width: 50%;
   margin: auto;
 }
 
@@ -122,15 +131,15 @@ a {
   width: 32%;
   padding: 6%;
   margin-top: 0;
-  margin-right: -80px;
+  margin-right: -30px;
   margin-bottom: 80px;
 }
 
 #roadmap {
-  height: 130vh;
   background-image: linear-gradient(#320752, #320752, #0b0b0b);
   position: relative;
   justify-content: center;
+  padding-bottom: 5em;
 }
 
 .roadmap__neon {
@@ -186,10 +195,13 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 3em;
+  padding-bottom: 5em;
 }
 
 .token__wrapper {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 5%;
   justify-content: center;
 }
@@ -242,17 +254,22 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .merch__wrapper {
   max-width: 1300px;
   margin: auto;
   display: flex;
+
   align-items: center;
 }
 
 .merch__content {
-  margin-top: -15%;
+  margin-left: 1em;
 }
 
 .merch__title {
@@ -267,14 +284,13 @@ a {
   max-width: 400px;
   font-size: 0.5rem;
   margin-top: 2em;
-  margin-right: -50%;
 }
 
 .merch__image {
   display: block;
   padding: 5%;
   margin: auto;
-  width: 900px;
+  width: 60%;
 }
 
 #ticket {
@@ -331,13 +347,13 @@ a {
 }
 
 .boombox__radio--image {
-  width: 700px;
+  max-width: 700px;
   margin: 20px auto;
   padding-top: 6%;
 }
 
 .boombox__player--image {
-  width: 500px;
+  max-width: 500px;
   margin: auto;
   padding-bottom: 6%;
 }
@@ -385,22 +401,24 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .partners__orbit-image {
-  position: absolute;
   top: 10%;
   z-index: 1;
-  width: 100vw;
+  max-width: 100%;
+  margin-top: 2em;
 }
 
 .partners__image {
-  position: relative;
-  z-index: 2;
-  width: 70%;
+  width: 500px;
   margin-top: 0;
+  padding-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #anim-placeholder {
@@ -419,10 +437,12 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5em;
 }
 
 .faq__wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   max-width: 1200px;
@@ -432,6 +452,7 @@ a {
 
 .faq__wrapper--blocks {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: auto 1em;
   font-family: "JetBrains Mono", monospace;
@@ -451,11 +472,11 @@ a {
 }
 
 .faq__block {
-  width: 550px;
+  width: 500px;
   border-top: solid 6px rgba(255, 255, 255, 0.7);
   border-left: solid 6px rgba(255, 255, 255, 0.7);
   border-bottom: solid 3px #ffff;
-  margin: 0.5em 0;
+  margin: 0.5em auto;
 }
 
 .faq__block--border {
@@ -463,6 +484,7 @@ a {
   border-bottom: solid 6px #280151;
   background-color: #380074;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -477,6 +499,7 @@ a {
 
 .faq__arrow {
   margin-right: 20px;
+  cursor: pointer;
 }
 
 #contact {
@@ -484,25 +507,30 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  height: 150vh;
   display: flex;
+  flex-direction: column;
   padding-top: 10%;
-}
-
-.contact__image {
-  margin-bottom: -1em;
-  margin-left: 10em;
-  margin-right: -15em;
-  width: 800px;
+  position: relative;
 }
 
 .form__container {
-  position: relative;
-  margin-top: 17%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .contact__form {
-  width: 600px;
+  width: 100%;
+  margin: 15% auto;
+}
+
+.contact__btt--btn {
+  padding-top: 10%;
+  width: 200px;
 }
 
 #footer {
@@ -521,7 +549,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
 }
 
 .footer__image {
@@ -538,14 +566,142 @@ a {
 
 .copyright {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 10px;
 }
 
-.footer__newsletter {
+.copyright__mobile {
+  display: none;
 }
 
 .footer__newsletter--text {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 10px 0;
+  color: #fd4c76;
+}
+
+#input__text {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 1070px) {
+  .navbar__button {
+    margin-right: -2em;
+    margin-left: auto;
+    margin-bottom: -3.5em;
+  }
+
+  .navbar__list {
+    content: url(/images/Menu-Mobile.svg);
+    width: 40px;
+    order: 1;
+    margin: auto 1em;
+  }
+
+  .merch__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .merch__image {
+    width: 90%;
+  }
+
+  .boombox__radio--image {
+    width: 60%;
+  }
+
+  .boombox__player--image {
+    width: 50%;
+  }
+
+  .form__container {
+    width: 60%;
+  }
+
+  .boombox__image {
+    width: 15%;
+  }
+  .faq__wrapper--blocks {
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .faq__title {
+    margin-bottom: 1em;
+  }
+
+  .faq__block {
+    margin: 0.5em auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .mainpage__image {
+    max-width: 95%;
+  }
+
+  .token__image {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  .partners__image {
+    width: 70%;
+  }
+
+  .roadmap__maze--image {
+    width: 200px;
+  }
+
+  .roadmap__desc--text {
+    width: auto;
+    font-size: 0.5rem;
+  }
+
+  .faq__pacman--image {
+    display: none;
+  }
+
+  .merch__content {
+    order: 1;
+  }
+
+  .breeding__two--image {
+    width: 70%;
+  }
+
+  .faq__block {
+    max-width: 80%;
+    margin: 0.5em auto;
+  }
+
+  .form__container {
+    width: 80%;
+  }
+
+  #contact {
+    background-size: 150% 100%;
+    height: auto;
+  }
+
+  #footer {
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .footer__newsletter--text {
+    font-size: 0.8rem;
+    color: #fd4c76;
+  }
+
+  .copyright__mobile {
+    display: block;
+  }
 }
