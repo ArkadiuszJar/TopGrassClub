@@ -662,9 +662,9 @@ a {
   }
 
   .navbar__button {
-    width: 50%;
+    width: 35%;
     margin-top: -1em;
-    margin-right: -1.5em;
+    margin-right: -1em;
   }
 
   .mobile__view {
@@ -828,4 +828,7 @@ a {
   .copyright__mobile {
     display: block;
   }
+}
+
+@media only screen and (max-width: 700px) {
 }
