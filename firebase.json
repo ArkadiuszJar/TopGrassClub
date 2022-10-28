@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "tgc-test",
+    "site": "top-grass-club",
     "public": "/main/index.html",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
