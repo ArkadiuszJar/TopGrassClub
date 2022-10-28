@@ -425,7 +425,7 @@ a {
 
 .partners__image {
   width: 500px;
-  margin-top: 0;
+  margin-top: -2em;
   padding-bottom: 2em;
   margin-left: 1em;
   margin-right: 1em;
@@ -749,7 +749,6 @@ a {
   }
 
   .partners__image {
-    margin-top: -2em;
     width: 70%;
   }
 
