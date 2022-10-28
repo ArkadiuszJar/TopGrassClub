@@ -20,7 +20,7 @@ a {
   color: white;
 }
 
-#header {
+.header {
   height: 100vh;
   background-image: url(/images/section1-bg.png);
   background-position: center;
@@ -662,11 +662,60 @@ a {
   .navbar__button {
     width: 50%;
     margin-top: -1em;
+    margin-right: -1.5em;
+  }
+
+  .mobile__view {
+    display: flex;
+    width: auto;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 25%;
+  }
+
+  .mobile__view--switcher1 {
+    height: 17px;
+    width: 17px;
+    margin: 0 5px;
+    border-radius: 20px;
+    border: solid 2px white;
+  }
+  .mobile__view--switcher2 {
+    height: 17px;
+    width: 17px;
+    margin: 0 5px;
+    border-radius: 20px;
+    border: solid 2px white;
+  }
+  .mobile__view--switcher3 {
+    height: 17px;
+    width: 17px;
+    margin: 0 5px;
+    border-radius: 20px;
+    border: solid 2px white;
+  }
+
+  .left {
+    background-position: left;
+  }
+
+  .center {
+    background-position: center;
+  }
+
+  .right {
+    background-position: right;
+  }
+
+  .active {
+    background-color: white;
   }
 
   .mainpage__image {
     content: url(/images/alert-window-mb.png);
     width: 95%;
+    bottom: 1em;
   }
 
   .boombox__radio--image {
@@ -722,6 +771,10 @@ a {
   .merch__content {
     order: 1;
     margin: 10px;
+  }
+
+  .breeding__container--image {
+    width: 80%;
   }
 
   .breeding__two--image {
