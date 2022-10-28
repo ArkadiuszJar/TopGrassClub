@@ -1,12 +1,12 @@
 {
   "hosting": {
     "site": "tgc-test",
-    "public": "public",
+    "public": "/main/index.html",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "/main/index.html"
       }
     ]
   }
