@@ -749,6 +749,7 @@ a {
   }
 
   .partners__image {
+    margin-top: -2em;
     width: 70%;
   }
 
