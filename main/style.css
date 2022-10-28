@@ -206,6 +206,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 2em;
   padding-bottom: 5em;
 }
 
@@ -447,6 +448,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 5em;
   padding-bottom: 5em;
 }
 
