@@ -22,7 +22,7 @@ a {
 
 .header {
   height: 100vh;
-  background-image: url(/images/section1-bg.png);
+  background-image: url(/images/main-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,20 +68,16 @@ a {
 
 .navbar__button {
   margin-bottom: -3em;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+}
+
+.mainpage__container {
+  position: absolute;
 }
 
 .mainpage__image {
-  width: 70%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  top: -3em;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  width: 65%;
+  display: block;
+  margin: auto;
 }
 
 #breeding {
@@ -204,6 +200,7 @@ a {
 .roadmap__strike--image {
   position: absolute;
   left: 0;
+  bottom: 0;
   width: 65%;
   min-width: 40%;
   z-index: 0;
@@ -214,8 +211,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 2em;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
 }
 
 .token__wrapper {
@@ -268,7 +264,7 @@ a {
 }
 
 #merch {
-  background-image: url(/images/section5-bg.png);
+  background-image: linear-gradient(to bottom, #220226, #9e00b4, #220226);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,33 +308,13 @@ a {
   width: 60%;
 }
 
-#ticket {
-  background-image: url(/images/ticket-future-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  overflow-y: hidden;
-}
-
-.ticket__image {
-  margin-left: 35%;
-  margin-bottom: -9%;
-  max-width: 1300px;
-  min-width: 500px;
-  padding-top: 25%;
-}
-
-.ticket__baner {
+.boombox__baner {
   background-color: #0b0b0b;
   box-shadow: inset 0px 0px 20px 5px #de01b5;
   border: 5px solid #fe42e4;
 }
 
-.ticket__banner--text {
+.boombox__banner--text {
   font-size: 1.3rem;
   color: #de01b5;
   text-align: center;
@@ -434,7 +410,7 @@ a {
 
 .partners__image {
   width: 500px;
-  margin-top: -2em;
+  margin-top: -1em;
   padding-bottom: 2em;
   margin-left: 1em;
   margin-right: 1em;
@@ -456,7 +432,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 5em;
   padding-bottom: 5em;
 }
 
@@ -614,6 +589,12 @@ a {
   display: none;
 }
 
+.selectblock {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
 @media only screen and (max-width: 1070px) {
   .navbar__button {
     margin-right: -2em;
@@ -724,12 +705,13 @@ a {
   }
 
   .mobile__view {
-    display: flex;
-    width: auto;
     position: absolute;
-    transform: translate(-50%);
+    bottom: 1em;
     left: 50%;
-    bottom: 20%;
+    transform: translate(-50%);
+    display: flex;
+    margin: 10px auto;
+    width: 100px;
     background-color: #2c06437f;
     padding: 5px;
     border-radius: 20px;
@@ -738,21 +720,21 @@ a {
   .mobile__view--switcher1 {
     height: 17px;
     width: 17px;
-    margin: 0 5px;
+    margin: auto;
     border-radius: 20px;
     border: solid 2px white;
   }
   .mobile__view--switcher2 {
     height: 17px;
     width: 17px;
-    margin: 0 5px;
+    margin: auto;
     border-radius: 20px;
     border: solid 2px white;
   }
   .mobile__view--switcher3 {
     height: 17px;
     width: 17px;
-    margin: 0 5px;
+    margin: auto;
     border-radius: 20px;
     border: solid 2px white;
   }
@@ -777,9 +759,17 @@ a {
     background-color: white;
   }
 
+  .mainpage__container {
+    margin-top: -5em;
+  }
+
   .mainpage__image {
     content: url(/images/alert-window-mb.png);
     width: 95%;
+  }
+
+  .boombox__image {
+    display: none;
   }
 
   .boombox__radio--image {
