@@ -44,7 +44,6 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-
   margin: auto;
 }
 
@@ -69,6 +68,9 @@ a {
 
 .navbar__button {
   margin-bottom: -3em;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .mainpage__image {
@@ -76,7 +78,10 @@ a {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  bottom: 1em;
+  top: -3em;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 #breeding {
@@ -85,6 +90,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   flex-wrap: wrap;
+  position: relative;
+  padding-top: 1em;
 }
 
 .breeding__container {
@@ -198,6 +205,7 @@ a {
   position: absolute;
   left: 0;
   width: 65%;
+  min-width: 40%;
   z-index: 0;
 }
 
@@ -543,6 +551,9 @@ a {
 .contact__btt--btn {
   padding-top: 10%;
   width: 200px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 #footer {
@@ -599,6 +610,10 @@ a {
   width: 200px;
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (max-width: 1070px) {
   .navbar__button {
     margin-right: -2em;
@@ -611,6 +626,47 @@ a {
     width: 40px;
     order: 1;
     margin: auto 1em;
+  }
+
+  .mobile__nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    background-color: #08012f;
+    border-left: solid 3px white;
+    border-bottom: solid 3px white;
+    box-shadow: 0px 0px 20px 5px #de01b5;
+  }
+
+  .navbar__list--mb {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .navbar__list--mbutton {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard */
+  }
+
+  .mobile__nav--button {
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .navbar__button--mb {
+    margin: auto;
+    margin-bottom: auto;
   }
 
   .merch__wrapper {
@@ -673,7 +729,10 @@ a {
     position: absolute;
     transform: translate(-50%);
     left: 50%;
-    bottom: 25%;
+    bottom: 20%;
+    background-color: #2c06437f;
+    padding: 5px;
+    border-radius: 20px;
   }
 
   .mobile__view--switcher1 {
@@ -698,6 +757,10 @@ a {
     border: solid 2px white;
   }
 
+  .mobile__nav {
+    width: 240px;
+  }
+
   .left {
     background-position: left;
   }
@@ -717,7 +780,6 @@ a {
   .mainpage__image {
     content: url(/images/alert-window-mb.png);
     width: 95%;
-    bottom: 1em;
   }
 
   .boombox__radio--image {
@@ -734,6 +796,10 @@ a {
 
   .placeholder {
     content: url(/images/picture-placeholder.png);
+  }
+
+  #token {
+    padding-top: 0;
   }
 
   .token__desc {
@@ -783,6 +849,10 @@ a {
     width: 70%;
   }
 
+  #faq {
+    padding-top: 0em;
+  }
+
   .faq__wrapper--blocks {
     width: 100%;
   }
@@ -828,7 +898,4 @@ a {
   .copyright__mobile {
     display: block;
   }
-}
-
-@media only screen and (max-width: 700px) {
 }
