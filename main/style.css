@@ -471,7 +471,9 @@ a {
   border-top: solid 6px rgba(255, 255, 255, 0.7);
   border-left: solid 6px rgba(255, 255, 255, 0.7);
   border-bottom: solid 3px #ffff;
-  margin: 0.5em auto;
+  margin: 0.5em auto 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .faq__block--border {
@@ -495,6 +497,18 @@ a {
 .faq__arrow {
   margin-right: 20px;
   cursor: pointer;
+}
+
+.faq__response--container {
+  position: relative;
+  width: 505px;
+  margin-top: 0;
+  z-index: 0;
+}
+
+.faq__response--image {
+  width: 100%;
+  margin: 0;
 }
 
 #contact {
@@ -887,5 +901,11 @@ a {
 
   .copyright__mobile {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .mobile__view {
+    width: 120px;
   }
 }
