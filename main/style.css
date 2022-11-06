@@ -15,7 +15,6 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: #08012f;
-  max-width: 100vw;
   overflow-x: hidden;
   scroll-behavior: smooth;
   overflow-y: scroll;
