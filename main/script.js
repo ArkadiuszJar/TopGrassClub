@@ -52,3 +52,13 @@ menuCloseBtn.addEventListener("click", () => {
     mobileMenu.classList.add("hidden");
   }
 });
+
+const faqResponse = document.querySelectorAll(".faq__response");
+const faqBtn = document.querySelectorAll(".faq__arrow");
+
+for (let i = 0; i < faqBtn.length; i++) {
+  faqBtn[i].addEventListener("click", () => {
+    faqResponse[i].classList.toggle("hidden");
+    faqBtn[i].classList.toggle("active");
+  });
+}

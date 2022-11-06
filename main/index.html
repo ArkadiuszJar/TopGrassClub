@@ -69,11 +69,17 @@
     </header>
     <main>
       <section id="breeding">
-        <img
-          class="mainpage__image"
-          src="/images/aletr-window.svg"
-          alt="aletr-window"
-        />
+        <div class="window">
+          <img
+            class="window__image"
+            src="/images/aletr-window.svg"
+            alt="aletr-window"
+          />
+          <p class="window__text">
+            Mike Gorilla: Tutaj trzeba zaprojektować taki pasek, w którym będą
+            pojawiały się wypowiedzi NPC. Tak jak w starych grach.
+          </p>
+        </div>
         <div class="breeding__container">
           <div class="breeding__container--half">
             <img
@@ -148,11 +154,12 @@
           class="roadmap__mazes--bg"
         />
         <img
-          src="/images/strike-roadmap.svg"
+          src="/images/strike.png"
           alt="strike-roadmap"
           class="roadmap__strike--image"
         />
       </section>
+
       <section id="token">
         <div class="token__wrapper">
           <div class="token__image--container">
@@ -164,8 +171,8 @@
               <p class="token__subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquipe
+                enim ad minim veniam, quis nostrud exercitation veniam, quis
+                nostrud exercitation
               </p>
             </div>
             <div class="token__desc">
@@ -178,8 +185,8 @@
               <p class="token__subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquipe
+                enim ad minim veniam, quis nostrud exercitation veniam, quis
+                nostrud exercitation
               </p>
             </div>
           </div>
@@ -197,8 +204,8 @@
             <p class="merch__desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquipea.
+              enim ad minim veniam, quis nostrud exercitation veniam, quis
+              nostrud exercitation
             </p>
           </div>
           <img src="/images/merch-image.png" alt="merch" class="merch__image" />
@@ -240,14 +247,18 @@
       </section>
       <section id="illustration__gorillasstyle">
         <div class="placeholder">
-          <p class="placeholder__title">Miejsce na ilustrację</p>
+          <img
+            src="/images/gorillas-image.png"
+            alt="gorillas style image"
+            class="placeholder__image"
+          />
         </div>
       </section>
       <section id="partners">
         <img
-          class="partners__orbit-image"
-          src="/images/partners-orbit.png"
+          src="/images/orbit.png"
           alt="orbit image"
+          class="partners__orbit-image"
         />
         <img
           class="partners__image"
@@ -274,114 +285,186 @@
             <div class="faq__block--container">
               <div class="faq__block">
                 <div class="faq__block--border">
-                  <p class="faq__block--text">Brendon czy Brandon</p>
-                  <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
-                  />
+                  <div class="faq__block--content">
+                    <p class="faq__block--text">Brendon czy Brandon</p>
+                    <img
+                      src="/images/faq-arrow.svg"
+                      alt="drop down arrow"
+                      class="faq__arrow"
+                    />
+                  </div>
+                  <div class="faq__response hidden">
+                    <img
+                      src="/images/faq-response-bg.svg"
+                      alt="faq background"
+                      class="response__background--image"
+                    />
+                    <p class="faq__response--text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti ipsum quidem suscipit ut quos vel beatae sint
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="faq__block">
                 <div class="faq__block--border">
-                  <p class="faq__block--text">Czym jest nicnierobienie?</p>
+                  <div class="faq__block--content">
+                    <p class="faq__block--text">Brendon czy Brandon</p>
+                    <img
+                      src="/images/faq-arrow.svg"
+                      alt="drop down arrow"
+                      class="faq__arrow"
+                    />
+                  </div>
+                </div>
+                <div class="faq__response hidden">
                   <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
+                    src="/images/faq-response-bg.svg"
+                    alt="faq background"
+                    class="response__background--image"
                   />
+                  <p class="faq__response--text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti ipsum quidem suscipit ut quos vel beatae sint
+                  </p>
                 </div>
               </div>
               <div class="faq__block">
                 <div class="faq__block--border">
-                  <p class="faq__block--text">Czy Gryn to scammer?</p>
-                  <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
-                  />
-                </div>
-              </div>
-              <div class="faq__block">
-                <div class="faq__block--border">
-                  <p class="faq__block--text">Skąd wziąć więcej szmalu?</p>
-                  <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
-                  />
+                  <div class="faq__block--content">
+                    <p class="faq__block--text">Brendon czy Brandon</p>
+                    <img
+                      src="/images/faq-arrow.svg"
+                      alt="drop down arrow"
+                      class="faq__arrow"
+                    />
+                  </div>
+                  <div class="faq__response hidden">
+                    <img
+                      src="/images/faq-response-bg.svg"
+                      alt="faq background"
+                      class="response__background--image"
+                    />
+                    <p class="faq__response--text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti ipsum quidem suscipit ut quos vel beatae sint
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="faq__block--container">
               <div class="faq__block">
                 <div class="faq__block--border">
-                  <p class="faq__block--text">Czy marihuana jest z konopi?</p>
-                  <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
-                  />
+                  <div class="faq__block--content">
+                    <p class="faq__block--text">Brendon czy Brandon</p>
+                    <img
+                      src="/images/faq-arrow.svg"
+                      alt="drop down arrow"
+                      class="faq__arrow"
+                    />
+                  </div>
+                  <div class="faq__response hidden">
+                    <img
+                      src="/images/faq-response-bg.svg"
+                      alt="faq background"
+                      class="response__background--image"
+                    />
+                    <p class="faq__response--text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti ipsum quidem suscipit ut quos vel beatae sint
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="faq__block">
                 <div class="faq__block--border">
-                  <p class="faq__block--text">Najpierw płatki czy mleko?</p>
-                  <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
-                  />
+                  <div class="faq__block--content">
+                    <p class="faq__block--text">Brendon czy Brandon</p>
+                    <img
+                      src="/images/faq-arrow.svg"
+                      alt="drop down arrow"
+                      class="faq__arrow"
+                    />
+                  </div>
+                  <div class="faq__response hidden">
+                    <img
+                      src="/images/faq-response-bg.svg"
+                      alt="faq background"
+                      class="response__background--image"
+                    />
+                    <p class="faq__response--text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti ipsum quidem suscipit ut quos vel beatae sint
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="faq__block">
                 <div class="faq__block--border">
-                  <p class="faq__block--text">Cristiano czy Ronaldo?</p>
-                  <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
-                  />
+                  <div class="faq__block--content">
+                    <p class="faq__block--text">Brendon czy Brandon</p>
+                    <img
+                      src="/images/faq-arrow.svg"
+                      alt="drop down arrow"
+                      class="faq__arrow"
+                    />
+                  </div>
+                  <div class="faq__response hidden">
+                    <img
+                      src="/images/faq-response-bg.svg"
+                      alt="faq background"
+                      class="response__background--image"
+                    />
+                    <p class="faq__response--text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti ipsum quidem suscipit ut quos vel beatae sint
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="faq__block">
                 <div class="faq__block--border">
-                  <p class="faq__block--text">Randomowe pytanie?</p>
-                  <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
-                  />
+                  <div class="faq__block--content">
+                    <p class="faq__block--text">Brendon czy Brandon</p>
+                    <img
+                      src="/images/faq-arrow.svg"
+                      alt="drop down arrow"
+                      class="faq__arrow"
+                    />
+                  </div>
+                  <div class="faq__response hidden">
+                    <img
+                      src="/images/faq-response-bg.svg"
+                      alt="faq background"
+                      class="response__background--image"
+                    />
+                    <p class="faq__response--text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti ipsum quidem suscipit ut quos vel beatae sint
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="faq__block">
-                <div class="faq__block--border">
-                  <p class="faq__block--text">Dlaczego TEDE kurwą jest?</p>
-                  <img
-                    src="/images/faq-arrow.svg"
-                    alt="drop down arrow"
-                    class="faq__arrow"
-                  />
-                </div>
-              </div>
-              <div class="faq__response--container">
-                <img
-                  src="/images/faq-response-bg.svg"
-                  alt="bacground"
-                  class="faq__response--image"
-                />
               </div>
             </div>
           </div>
         </div>
       </section>
       <section id="contact">
-        <div class="form__container">
-          <img
-            src="/images/contact-form-bg.png"
-            alt="contact form"
-            class="contact__form"
-          />
+        <img
+          src="/images/form-images.png"
+          alt="contact images"
+          class="contact__images"
+        />
+        <div class="contact__container">
+          <div class="contact__form">
+            <img
+              src="/images/contact-form-bg.png"
+              alt="contact form"
+              class="contact__form--bg"
+            />
+          </div>
+
           <a href="#header"
             ><img
               src="/images/back-to-top-btn.png"
