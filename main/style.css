@@ -13,6 +13,7 @@ body {
   color: white;
   padding: 0;
   margin: 0;
+  width: 100vw;
   box-sizing: border-box;
   background-color: #08012f;
   overflow-x: hidden;
@@ -433,7 +434,7 @@ a {
 
 #faq {
   background-image: url(/images/FAQ-bg.png);
-  height: 95vh;
+  height: 75vh;
 }
 
 .faq__wrapper {
