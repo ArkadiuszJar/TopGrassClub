@@ -383,7 +383,7 @@ a {
 }
 
 #illustration__gorillasstyle {
-  background-color: #2c0643;
+  background-color: #08012f;
 }
 
 .placeholder {
@@ -506,7 +506,7 @@ a {
   user-select: none; /* Standard syntax */
 }
 
-.active {
+.active-btn {
   transform: rotate(180deg);
 }
 
@@ -540,6 +540,9 @@ a {
   justify-content: flex-end;
   position: relative;
   height: 140vh;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
 }
 
 .contact__container {
@@ -549,6 +552,61 @@ a {
   align-items: flex-end;
   margin: auto auto 0 auto;
   position: relative;
+}
+
+.contact__form--container {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  position: absolute;
+  top: 1.5rem;
+  right: 7.5rem;
+}
+
+.input__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__form--container label {
+  color: #26c4f4;
+  margin: 10px auto;
+}
+
+.form__input--name {
+  padding: 0.3rem;
+  flex-grow: 1;
+  border: none;
+  margin-right: 5px;
+  width: 130px;
+}
+
+.form__input--mail {
+  padding: 0.3rem;
+  flex-grow: 1;
+  border: none;
+  margin-left: 5px;
+  width: 130px;
+}
+
+.form__input--text {
+  margin-top: 0.3rem;
+  padding: 0.3rem;
+  height: 170px;
+  border: none;
+  resize: none;
+}
+
+.form__button {
+  display: block;
+  width: 130px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0.2rem;
+  margin: 1.5rem 0 auto auto;
+  background-color: #26c4f4;
+  border: none;
+  cursor: pointer;
 }
 
 .contact__form--bg {
@@ -928,13 +986,17 @@ a {
   }
 
   .contact__container {
-    width: 100%;
+    max-width: 600px;
   }
 
   .contact__form {
-    width: 90%;
+    width: 100%;
     margin: auto;
     z-index: 3;
+  }
+
+  .contact__form--container {
+    width: 50%;
   }
 
   .contact__form--bg {
