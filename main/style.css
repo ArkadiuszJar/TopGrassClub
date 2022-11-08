@@ -193,6 +193,9 @@ a {
 
 .roadmap__desc {
   margin: auto 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 .roadmap__desc--text {
@@ -202,12 +205,10 @@ a {
   font-family: "JetBrains Mono", monospace;
   font-size: 0.55rem;
   font-weight: 300;
-  position: relative;
-  z-index: 2;
 }
 
 .roadmap__maze--image {
-  max-width: 30%;
+  width: 14rem;
   position: relative;
   z-index: 3;
 }
@@ -750,6 +751,10 @@ a {
     margin-bottom: auto;
   }
 
+  .window__text {
+    top: 25%;
+  }
+
   .merch__wrapper {
     flex-wrap: wrap;
     justify-content: center;
@@ -911,8 +916,30 @@ a {
     margin: auto;
   }
 
+  .roadmap__maze--wrapper {
+    flex-direction: column;
+  }
+
   .roadmap__strike--image {
     width: 90%;
+  }
+
+  .roadmap__maze--image {
+    width: 11rem;
+  }
+
+  .roadmap__desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .roadmap__desc--text {
+    font-size: 0.4rem;
+  }
+
+  .roadmap__desc--text:nth-of-type(even) {
+    display: none;
   }
 
   .partners__orbit-image {
@@ -924,18 +951,6 @@ a {
   .partners__image {
     margin-top: 0;
     width: 90%;
-  }
-
-  .roadmap__maze--wrapper {
-    width: 100vw;
-  }
-
-  .roadmap__maze--image {
-    max-width: 80%;
-  }
-
-  .roadmap__desc {
-    display: none;
   }
 
   .faq__pacman--image {
@@ -960,7 +975,7 @@ a {
   }
 
   #faq {
-    height: 100vh;
+    height: 150vh;
   }
 
   .faq__title {
@@ -982,25 +997,29 @@ a {
   }
 
   #contact {
-    height: 100vh;
+    height: auto;
   }
 
   .contact__container {
-    max-width: 600px;
+    margin: auto;
+  }
+
+  .contact__images {
+    display: none;
   }
 
   .contact__form {
-    width: 100%;
     margin: auto;
-    z-index: 3;
   }
 
   .contact__form--container {
-    width: 50%;
+    box-sizing: border-box;
+    position: static;
+    margin: auto;
   }
 
   .contact__form--bg {
-    width: 100%;
+    display: none;
   }
 
   .contact__images {
@@ -1048,6 +1067,10 @@ a {
   }
 
   #faq {
-    height: 140vh;
+    height: 160vh;
+  }
+
+  .faq__block--text {
+    font-size: 0.4rem;
   }
 }
