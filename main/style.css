@@ -226,7 +226,7 @@ a {
 
 #token {
   background-image: url(/images/section4-bg.png);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 3em;
@@ -283,7 +283,7 @@ a {
 
 #merch {
   background-image: linear-gradient(to bottom, #220226, #9e00b4, #220226);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
