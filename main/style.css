@@ -240,7 +240,7 @@ a {
 }
 
 .token__image {
-  width: 460px;
+  width: 440px;
 }
 
 .token__desc--wrapper {
@@ -260,7 +260,7 @@ a {
   font-size: 1.2rem;
   -webkit-text-stroke: #25e85d 1px;
   text-shadow: 0px 5px 10px #25e85d;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .token__subtitle {
@@ -435,7 +435,6 @@ a {
 
 #faq {
   background-image: url(/images/FAQ-bg.png);
-  height: 75vh;
 }
 
 .faq__wrapper {
@@ -547,71 +546,65 @@ a {
 }
 
 .contact__container {
-  width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin: auto auto 0 auto;
+  width: 1000px;
   position: relative;
 }
 
-.contact__form--container {
-  display: flex;
-  flex-direction: column;
-  width: 320px;
-  position: absolute;
-  top: 1.5rem;
-  right: 7.5rem;
-}
-
-.input__wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact__form--container label {
+.form__title {
   color: #26c4f4;
   margin: 10px auto;
 }
-
-.form__input--name {
-  padding: 0.3rem;
-  flex-grow: 1;
-  border: none;
-  margin-right: 5px;
-  width: 130px;
+.form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1.5rem;
+  right: 7.3rem;
+  width: 330px;
 }
 
-.form__input--mail {
-  padding: 0.3rem;
-  flex-grow: 1;
-  border: none;
-  margin-left: 5px;
-  width: 130px;
+.form__input--container {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
 }
 
-.form__input--text {
-  margin-top: 0.3rem;
-  padding: 0.3rem;
-  height: 170px;
+.contact__form--input {
+  box-sizing: border-box;
+  padding: 6px;
+  margin: 0.2rem 0;
   border: none;
-  resize: none;
 }
 
-.form__button {
+.contact__form--btn {
   display: block;
   width: 130px;
-  font-size: 0.7rem;
-  font-weight: 500;
   padding: 0.2rem;
-  margin: 1.5rem 0 auto auto;
-  background-color: #26c4f4;
+  margin-top: 1.5rem;
+  margin-left: auto;
   border: none;
+  background-color: #26c4f4;
+  color: #000;
+  font-weight: 400;
+  font-size: 0.7rem;
   cursor: pointer;
 }
 
 .contact__form--bg {
   width: 600px;
+}
+
+textarea {
+  box-sizing: border-box;
+  height: 6.5rem;
+  width: 330px;
+  resize: none;
+  padding: 0.2rem;
+  border: none;
 }
 
 .contact__images {
@@ -634,14 +627,15 @@ a {
 
 #footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   max-width: 1300px;
   margin: auto;
-  background-image: url(/images/Stopka.png);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: radial-gradient(circle at center, #19005f 0%, #08012f 50%);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 130%;
 }
 
 .footer__sm {
@@ -653,6 +647,7 @@ a {
 
 .footer__image {
   padding: 10px;
+  width: 4rem;
 }
 
 .footer__icons {
@@ -662,7 +657,7 @@ a {
 }
 
 .icon {
-  margin: 10px;
+  margin: auto 10px;
 }
 
 .copyright {
@@ -675,15 +670,29 @@ a {
   display: none;
 }
 
+.newsletter__form {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__newsletter--text {
   font-size: 1rem;
-  margin: 10px 0;
   color: #fd4c76;
 }
 
-#input__text {
-  padding: 5px;
-  width: 200px;
+.form__input {
+  padding: 0.3rem;
+  border: none;
+  margin: 0.3rem 0;
+}
+
+.form__btn {
+  padding: 0.3rem;
+  border: none;
+  margin: 0.3rem 0;
+  background-color: #fd4c76;
+  color: white;
+  cursor: pointer;
 }
 
 .hidden {
@@ -974,10 +983,6 @@ a {
     width: 70%;
   }
 
-  #faq {
-    height: 150vh;
-  }
-
   .faq__title {
     margin: 1rem auto;
   }
@@ -990,10 +995,18 @@ a {
     width: 80%;
   }
 
+  .faq__block--text {
+    font-size: 0.5rem;
+  }
+
   .faq__response--text {
     font-size: 13px;
     max-width: 85%;
     line-height: 0.8rem;
+  }
+
+  .response__background--image {
+    content: url(/images/faq-response-bg-mb.svg);
   }
 
   #contact {
@@ -1008,8 +1021,23 @@ a {
     display: none;
   }
 
+  .form {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-top: 2rem;
+  }
+
   .contact__form {
     margin: auto;
+  }
+
+  .contact__form--input {
+    border: solid 2px #26c4f4;
+  }
+
+  textarea {
+    border: solid 2px #26c4f4;
   }
 
   .contact__form--container {
@@ -1053,6 +1081,7 @@ a {
 
   .copyright__mobile {
     display: block;
+    margin: 10px;
   }
 }
 
@@ -1066,11 +1095,11 @@ a {
     max-width: 10rem;
   }
 
-  #faq {
-    height: 160vh;
-  }
-
   .faq__block--text {
     font-size: 0.4rem;
+  }
+
+  .contact__form--input {
+    width: 130px;
   }
 }

@@ -309,9 +309,7 @@
               <div class="faq__block">
                 <div class="faq__block--border">
                   <div class="faq__block--content">
-                    <p class="faq__block--text">
-                      forensibus efficiendi cum ut,
-                    </p>
+                    <p class="faq__block--text">Lorem ipsum dolor sit amet,</p>
                     <img
                       src="/images/faq-arrow.svg"
                       alt="drop down arrow"
@@ -334,9 +332,7 @@
               <div class="faq__block">
                 <div class="faq__block--border">
                   <div class="faq__block--content">
-                    <p class="faq__block--text">
-                      ut qui agam assum, simul adipisci accusata et vis.
-                    </p>
+                    <p class="faq__block--text">Lorem ipsum dolor sit amet,</p>
                     <img
                       src="/images/faq-arrow.svg"
                       alt="drop down arrow"
@@ -361,7 +357,7 @@
               <div class="faq__block">
                 <div class="faq__block--border">
                   <div class="faq__block--content">
-                    <p class="faq__block--text">Nam et clita signiferumque,</p>
+                    <p class="faq__block--text">Lorem ipsum dolor sit amet,</p>
                     <img
                       src="/images/faq-arrow.svg"
                       alt="drop down arrow"
@@ -384,9 +380,7 @@
               <div class="faq__block">
                 <div class="faq__block--border">
                   <div class="faq__block--content">
-                    <p class="faq__block--text">
-                      populo delicata qui cu, nec id fabulas incorrupte.
-                    </p>
+                    <p class="faq__block--text">Lorem ipsum dolor sit amet,</p>
                     <img
                       src="/images/faq-arrow.svg"
                       alt="drop down arrow"
@@ -409,9 +403,7 @@
               <div class="faq__block">
                 <div class="faq__block--border">
                   <div class="faq__block--content">
-                    <p class="faq__block--text">
-                      No ornatus prodesset nam, usu ad ignota graecis denique.
-                    </p>
+                    <p class="faq__block--text">Lorem ipsum dolor sit amet,</p>
                     <img
                       src="/images/faq-arrow.svg"
                       alt="drop down arrow"
@@ -423,6 +415,7 @@
                       src="/images/faq-response-bg.svg"
                       alt="faq background"
                       class="response__background--image"
+                      loading="lazy"
                     />
                     <p class="faq__response--text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -434,9 +427,7 @@
               <div class="faq__block">
                 <div class="faq__block--border">
                   <div class="faq__block--content">
-                    <p class="faq__block--text">
-                      Vis erant dicit consetetur in,
-                    </p>
+                    <p class="faq__block--text">Lorem ipsum dolor sit amet,</p>
                     <img
                       src="/images/faq-arrow.svg"
                       alt="drop down arrow"
@@ -473,29 +464,25 @@
               alt="contact form"
               class="contact__form--bg"
             />
-            <div class="contact__form--container">
-              <label>Have a question?</label>
-              <div class="input__wrapper">
+            <form class="form">
+              <label class="form__title">Have a question?</label>
+              <div class="form__input--container">
                 <input
+                  class="contact__form--input"
                   type="text"
-                  class="form__input--name"
                   placeholder="Name"
                   required
                 />
                 <input
-                  placeholder="E-Mail"
-                  type="text"
-                  class="form__input--mail"
+                  class="contact__form--input"
+                  type="email"
+                  placeholder="Email"
                   required
                 />
               </div>
-              <textarea
-                class="form__input--text"
-                placeholder="Content"
-                required
-              ></textarea>
-              <button class="form__button">SEND</button>
-            </div>
+              <textarea placeholder="Content" required></textarea>
+              <button class="contact__form--btn">SEND</button>
+            </form>
           </div>
 
           <a href="#header"
@@ -533,8 +520,20 @@
         <p class="copyright">Copyright © 2021 cannumi</p>
       </div>
       <div class="footer__newsletter">
-        <p class="footer__newsletter--text">NEWSLETTER</p>
-        <input type="text" id="input__text" />
+        <form class="newsletter__form">
+          <label for="newsletter" class="footer__newsletter--text"
+            >newsletter</label
+          >
+          <span
+            ><input
+              type="email"
+              name="newsletter"
+              class="form__input"
+              required
+            />
+            <button class="form__btn">Sign in</button></span
+          >
+        </form>
       </div>
       <p class="copyright__mobile">Copyright © 2021 cannumi</p>
     </footer>

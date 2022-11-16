@@ -62,3 +62,10 @@ for (let i = 0; i < faqBtn.length; i++) {
     faqBtn[i].classList.toggle("active-btn");
   });
 }
+
+const formBtn = document.querySelector(".newsletter__form");
+
+formBtn.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Thank you for subscribing!");
+});
