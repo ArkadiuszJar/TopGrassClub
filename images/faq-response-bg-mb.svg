@@ -1,33 +1,19 @@
-<svg width="421" height="203" viewBox="0 0 421 203" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="3.5" y="4.5" width="408" height="195" fill="#D2C0A2" stroke="#D2C0A2" stroke-width="7"/>
-<g filter="url(#filter0_d_41_39255)">
-<path d="M415 1L416 1.00042V203H415V1Z" fill="black"/>
-</g>
-<path d="M407.575 35.5633L405.075 32.9814L402.575 35.5633" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M402.932 191.53L404.932 193.919L406.932 191.53" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M396 26H398V203H396V26Z" fill="white" fill-opacity="0.7"/>
-<rect x="5" y="25" width="390" height="177" stroke="black" stroke-width="2"/>
-<rect x="4" y="21" width="411" height="3" fill="#938671"/>
-<path d="M411 1H415V21H411V1Z" fill="#938671"/>
-<path d="M413 26H415V203H413V26Z" fill="#938671"/>
-<path d="M398 26H413V28H405.5H398V26Z" fill="white" fill-opacity="0.7"/>
-<path d="M412.929 200.989H397.929V198.989H405.429H412.929V200.989Z" fill="white" fill-opacity="0.7"/>
-<path d="M398 41H413V42L398 42V41Z" fill="#938671"/>
-<path d="M394 42H415V44H394V42Z" fill="black"/>
-<path d="M416 186H396V184H416V186Z" fill="black"/>
-<rect x="394" y="24" width="21" height="2" fill="black"/>
-<rect x="416" y="203" width="20" height="2" transform="rotate(-180 416 203)" fill="black"/>
+<svg width="416" height="202" viewBox="0 0 416 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3.5" y="3.5" width="408" height="195" fill="#D2C0A2" stroke="#D2C0A2" stroke-width="7"/>
+<path d="M415 0L416 0.000416916V202H415V0Z" fill="black"/>
+<path d="M407.575 34.5633L405.075 31.9814L402.575 34.5633" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402.932 190.53L404.932 192.919L406.932 190.53" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M396 25H398V202H396V25Z" fill="white" fill-opacity="0.7"/>
+<rect x="5" y="24" width="390" height="177" stroke="black" stroke-width="2"/>
+<rect x="4" y="20" width="411" height="3" fill="#938671"/>
+<path d="M411 0H415V20H411V0Z" fill="#938671"/>
+<path d="M413 25H415V202H413V25Z" fill="#938671"/>
+<path d="M398 25H413V27H405.5H398V25Z" fill="white" fill-opacity="0.7"/>
+<path d="M412.929 199.989H397.929V197.989H405.429H412.929V199.989Z" fill="white" fill-opacity="0.7"/>
+<path d="M398 40H413V41L398 41V40Z" fill="#938671"/>
+<path d="M394 41H415V43H394V41Z" fill="black"/>
+<path d="M416 185H396V183H416V185Z" fill="black"/>
+<rect x="394" y="23" width="21" height="2" fill="black"/>
+<rect x="416" y="202" width="20" height="2" transform="rotate(-180 416 202)" fill="black"/>
 <rect x="399" y="54" width="13" height="44" fill="#B5A58B"/>
-<defs>
-<filter id="filter0_d_41_39255" x="410" y="0" width="11" height="212" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2.5"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_41_39255"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_41_39255" result="shape"/>
-</filter>
-</defs>
 </svg>
